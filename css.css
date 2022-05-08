@@ -7,6 +7,9 @@ body{
 .flex-column{
     flex-direction: column;
 }
+.left{
+    float: left;
+}
 .space-between{
     justify-content: space-between;
 }
@@ -15,6 +18,7 @@ body{
     width: 60%;
     margin-top: 2.5rem;
     box-shadow: 0px 0px 5px 0px rgb(0 0 0 / 20%);
+    position: relative;
 }
 .font-18{
     font-size: 18px;
@@ -28,11 +32,20 @@ body{
     font-weight: normal;
     width: 15%;
 }
+.inline{
+    display: inline-block;
+}
 .pb-20{
     padding: 10px 0 10px 0;
 }
 .pt-20{
     padding: 20px 0 0 0;
+}
+.pl-3p{
+    padding-left: 3%;
+}
+.pr-3p{
+    padding-right: 3%;
 }
 .bg-white{
     background-color: white;
@@ -46,4 +59,10 @@ body{
 }
 .w-85{
     width: 85%;
+}
+.after:after{
+    display: table;
+    content: "";
+    line-height: 0;
+    width: 100%;
 }
