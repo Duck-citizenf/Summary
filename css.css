@@ -66,3 +66,18 @@ body{
     line-height: 0;
     width: 100%;
 }
+.border{
+    border-bottom: 2px solid black;
+}
+@media print {
+    .main-container{
+        width: 100%;
+        margin: 0px 0px;
+    }
+    .bg-gray{
+        padding-top: 2px;
+    } 
+    .white-container{
+        padding-bottom: 0px;
+    }
+}
