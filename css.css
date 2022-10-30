@@ -1,5 +1,6 @@
 body{
     background-color: #444444;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif; 
 }
 .flex{
     display: flex;
@@ -51,7 +52,7 @@ body{
     background-color: white;
 }
 .white-container{
-    padding: 20px;
+    padding: 20px 20px 20px 20px;
 }
 .bg-gray{
     background-color: #a8a8a8;
@@ -84,5 +85,11 @@ body{
     }
     .font-48{
         font-size: 42px;
+    }
+    .pb-20{
+        padding: 6px 0px 6px 0px;
+    }
+    .projects{
+        font-size: 130%;
     }
 }
