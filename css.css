@@ -70,6 +70,14 @@ body{
 .border{
     border-bottom: 2px solid black;
 }
+.flags{
+    padding: 1px 5px 1px 4px;
+    background-color: white;
+    cursor: pointer;
+}
+.border-thin{
+    border: 1px solid;
+}
 @media print {
     .main-container{
         width: 100%;
