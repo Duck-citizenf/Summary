@@ -31,7 +31,6 @@ body{
     font-size: 150%;
     font-style: italic;
     font-weight: normal;
-    width: 15%;
 }
 .inline{
     display: inline-block;
@@ -77,6 +76,12 @@ body{
 }
 .border-thin{
     border: 1px solid;
+}
+.center{
+    justify-content: center;
+}
+.w-15{
+    width: 15%;
 }
 @media print {
     .main-container{
