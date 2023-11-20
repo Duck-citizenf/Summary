@@ -87,9 +87,11 @@ body{
     padding: 3px; 
     width: 100%;
     border-top: 1px solid black; 
+    border-bottom: 1px solid black; 
+    margin-bottom: 10px;
 }
 .image{
-    width: 339px;
+    width: 325px;
     border: 1px solid black; 
 }
 .proj-border{
